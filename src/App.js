@@ -1,10 +1,14 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Hello</header>
+      <header className="App-header">
+        <div>
+          <img src={logo} className="Logo img-fluid" />
+        </div>
+      </header>
     </div>
   );
 }
